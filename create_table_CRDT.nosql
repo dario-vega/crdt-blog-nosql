@@ -1,0 +1,8 @@
+CREATE TABLE users (
+   id INTEGER,
+   name STRING,
+   team STRING,
+   count INTEGER AS MR_COUNTER,
+   PRIMARY KEY (id)
+)
+IN REGIONS FRA, IND;
