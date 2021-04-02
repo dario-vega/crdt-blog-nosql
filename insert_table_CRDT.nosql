@@ -1,0 +1,5 @@
+INSERT INTO users(id, name, team) VALUES (1, "Dario", "NoSQL");
+
+SELECT * FROM myTable;
+
+{"id": 1, "name":"Chris","team":"NoSQL", "count":0}
