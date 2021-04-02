@@ -1,0 +1,39 @@
+{
+   "json_version": 1,
+   "type": "table",
+   "name": "users",
+   "regions": {
+      "1": "fra",
+      "2": "lnd"
+   },
+   "fields": [
+   {
+      "name": "id",
+      "type": "INTEGER",
+      "nullable": false
+   },
+   {
+      "name": "name",
+      "type": "STRING",
+      "nullable": true
+   },
+   {
+       "name": "team",
+       "type": "STRING",
+       "nullable": true
+   },
+   {
+       "name" : "count",
+       "type" : "INTEGER",
+       "nullable" : false,
+       "default" : 0,
+       "MRCounter" : true
+  }
+],
+   "primaryKey": [
+       "id"
+   ],
+   "shardKey": [
+       "id"
+   ]
+}
