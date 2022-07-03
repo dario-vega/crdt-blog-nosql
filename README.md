@@ -6,5 +6,5 @@
 
 A Multi-Region table is a global logical table that eliminates the problematic and error-prone work of replicating data between regions, enabling developers to focus on application business logic.
 
-This repository contains the scripts used
+This repository contains the scripts used and described in the blog
 
